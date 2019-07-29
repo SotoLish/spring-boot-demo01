@@ -1,0 +1,18 @@
+server:
+  port: 9090
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/practice?&useJDBCCompliantTimezoneShift=true&serverTimezone=UTC
+    username: mysql
+    password: mysql
+  profiles:
+    active: test
+
+demo:
+  value-property: vp-app.yml
+  beanProperty1: bp1-app.yml
+  beanProperty2: true

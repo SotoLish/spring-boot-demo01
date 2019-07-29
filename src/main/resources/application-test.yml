@@ -1,0 +1,9 @@
+demo:
+  value-property: vp-app-test.yml
+  beanProperty1: bp1-app-test.yml
+  beanProperty2: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

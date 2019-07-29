@@ -1,0 +1,8 @@
+server.port=9090
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/practice?&useJDBCCompliantTimezoneShift=true&serverTimezone=UTC
+spring.datasource.username=mysql
+spring.datasource.password=mysql
+
+demo.value-property=demovalue

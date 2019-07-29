@@ -1,0 +1,4 @@
+demo:
+  value-property: vp-app-dev.yml
+  beanProperty1: bp1-app-dev.yml
+  beanProperty2: true
